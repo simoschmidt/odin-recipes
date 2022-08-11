@@ -1,0 +1,27 @@
+h1 {
+    background-color: white;
+    text-align: center;
+    font-size: 52px;
+    text-decoration: underline;
+}
+
+.muumi {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    width: auto;
+}
+
+.button {
+    color: black;
+    background-color: #0066ff;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 15px;
+    border: 2px solid;
+    font-weight: bold;
+    margin: auto;
+    width: 5%;
+    display: block;
+}
