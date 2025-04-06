@@ -1,0 +1,50 @@
+html {  
+  box-sizing: border-box;  
+}  
+
+*,  
+*::before,  
+*::after {  
+  box-sizing: inherit;
+  margin: 0px;
+  padding: 0px;
+}
+
+@font-face {
+  font-family: 'Bungee Outline';
+  src: url('../fonts/Bungee_Outline/BungeeOutline-Regular.ttf')
+}
+
+body {
+  background-color: #5DD0FA;
+  font-family: monospace;
+  font-size: 24px;
+  margin: 16px 16px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Bungee Outline';
+  margin-top: 24px;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+h2 {
+  font-size: 64px;
+}
+
+h3 {
+  font-size: 48px;
+}
+
+ol {
+  margin: 0px 48px;
+}
+
+ul {
+  margin: 0px 32px;
+}
